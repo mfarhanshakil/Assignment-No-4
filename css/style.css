@@ -1,0 +1,182 @@
+
+.navbar
+{
+    background-color: indigo;
+    height: auto !important; */
+}
+
+.nav-link
+{
+    font-weight: bold;
+}
+
+.navbar-brand
+{
+    font-family: "Comic Sans MS"; 
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nav-link
+{
+    color: lavender !important;
+}
+
+body
+{
+    background: lavender;
+}
+
+.img-top
+{
+    width: 300px;
+    height: 45px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.d-block
+{
+    height: 500px !important;
+}
+
+.rounded
+{
+    width: 400px;
+    height: 60px;
+}
+
+.product-text 
+{
+    color: indigo;
+    font-family: 'Helvetica Neue'; 
+    font-weight: bold;    
+}
+
+.list-group-item
+{
+    background-color: lavender !important;
+}
+
+.mb-1
+{
+    color: indigo;
+    font-family: 'Helvetica Neue'; 
+    font-weight: bold;    
+}
+
+
+.btn
+{
+    color: lavender !important;
+    background-color: indigo !important;
+}
+
+.lgi
+{
+    background-color: lavender !important;
+}
+
+.list-group
+{
+    align-items: center !important;
+    text-align: center !important;
+}
+
+.card-body
+{
+    background-color: lavender !important;
+}
+
+.footer
+{
+    width: 100%;
+    background-color: indigo;
+    color: lavender;
+    height: 40px
+}
+
+.footer > div
+{
+    text-align: center ;
+}
+.map-container-6
+{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-6 iframe
+{
+    left:0;
+    top:0;
+    height:100%;
+    width:95%;
+    position:absolute;
+}
+
+.myicons
+{
+    color: indigo;
+}
+
+.fa-mycr
+{
+    color: indigo;    
+}
+
+.text-center
+{
+    color: indigo;
+}
+/* body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center
+} */
+
+.myimages {
+    display: flex;
+    overflow: hidden;
+    height: 26.5vw;
+    background: #333;
+}
+
+.myimages img {
+    max-width: 100%;
+    vertical-align: middle;
+    border: 2px solid white;
+    box-sizing: border-box;
+    transition: opacity .2s;
+}
+
+.myimages:hover img {
+    opacity: 0.5;
+}
+
+.myimages img:hover {
+    opacity: 1;
+}
+
+.first-column {
+    animation: var(--animation, none) 16s infinite linear;
+}
+
+.first-column:hover {
+    animation-play-state: paused;
+}
+
+.first-column:nth-of-type(odd) {
+    align-self: flex-end;
+    --direction: 50%;
+}
+
+@keyframes slide {
+    to {
+        -webkit-transform: translateY(var(--direction, -50%));
+        transform: translateY(var(--direction, -50%));
+    }
+}
